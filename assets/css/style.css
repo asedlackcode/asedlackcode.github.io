@@ -1,0 +1,27 @@
+header {
+    padding: 40px;
+    width: 100%;
+    background-color: teal;
+    color: black;
+    border: #cccccc;
+    
+}
+
+div {
+    width: 960px;
+    align-content: center;
+    background-color: #ffffff;
+}
+
+img {
+    float: left;
+    margin-left: 250px;
+}
+
+p{
+    margin: 20px;
+}
+
+h1{
+    margin-left:250px;
+}
