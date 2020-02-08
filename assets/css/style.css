@@ -1,21 +1,33 @@
-header {
+.header {
     padding: 40px;
     width: 100%;
     background-color: teal;
     color: black;
     border: #cccccc;
+    font-weight: 900;
     
 }
 
 div {
-    width: 960px;
+    margin: 25px 40px;
+    background-color: #8a8282;
+    padding: 50px;
+    width: 400px;
     align-content: center;
-    background-color: #ffffff;
+    
+
+}
+.center { 
+    margin: auto;
+    width: 50%;
+    padding:10px;
 }
 
 img {
     float: left;
-    margin-left: 250px;
+    align-content: center;
+    margin-right: 10px;
+    
 }
 
 p{
@@ -23,5 +35,45 @@ p{
 }
 
 h1{
-    margin-left:250px;
+    
+    text-align: center;
+}
+
+.footer {
+    border-top: 8px black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding:20px;
+    background-color: teal;
+
+}
+.contact {
+    float: right;
+   
+}
+.portfolio {
+    float: right;
+}
+.info{
+    float: right;
+}
+ul {
+    float:right;
+}
+.contact:hover {
+    background-color: lightskyblue;  
+}
+.portfolio:hover {
+    background-color: lightskyblue;   
+}
+.info:hover {
+    background-color: lightskyblue;
+}
+
+body {
+    background-color: href="https://images.app.goo.gl/P3UZYVccWBjF8YzM7";
 }
