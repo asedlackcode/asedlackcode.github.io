@@ -1,42 +1,40 @@
 .header {
     padding: 40px;
-    width: 100%;
+    width: 60px;
     background-color: teal;
     color: black;
     border: #cccccc;
     font-weight: 900;
+    position: fixed;
     
 }
 
-div {
-    margin: 25px 40px;
-    background-color: #8a8282;
-    padding: 50px;
-    width: 400px;
-    align-content: center;
-    
-
-}
-.center { 
-    margin: auto;
-    width: 50%;
-    padding:10px;
+#center { 
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 960px;
+    padding:5px 10px 25px 10px;
+    border-style: solid;
+    border-width: medium;
+    align-content: center;    
+    background-color: white;
 }
 
 img {
-    float: left;
+    float:left;
     align-content: center;
     margin-right: 10px;
     
 }
-
-p{
-    margin: 20px;
+body {
+    background-color: tan;
 }
+
 
 h1{
     
     text-align: center;
+    padding-top: 20px;
 }
 
 .footer {
@@ -51,29 +49,89 @@ h1{
     background-color: teal;
 
 }
-.contact {
-    float: right;
-   
+
+
+
+#nav {
+    background-color: teal;
+    font-family: Arial, Helvetica, serif;
+    list-style: none;
+    text-align: right;
+    padding: 30px 0 30px 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
 }
-.portfolio {
-    float: right;
+#links > li {
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 20px;
 }
-.info{
-    float: right;
+#links > li > a {
+    text-decoration: none;
+    color: black;
 }
-ul {
-    float:right;
+#name {
+    padding: 40px;
+    width: 60px;
+    background-color: rgb(114, 110, 110);
+    color: black;
+    border: #cccccc;
+    font-weight: 900;
+    position: fixed;
+    left: 60px;
+    
 }
-.contact:hover {
-    background-color: lightskyblue;  
+#form {
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 960px;
+    padding:5px 10px 25px 10px;
+    border-style: solid;
+    border-width: medium;
+    align-content: center;    
+    background-color: white;
 }
-.portfolio:hover {
-    background-color: lightskyblue;   
-}
-.info:hover {
-    background-color: lightskyblue;
+.form {
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
 }
 
-body {
-    background-color: href="https://images.app.goo.gl/P3UZYVccWBjF8YzM7";
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+#gallery {
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200;
+    padding-right: 10px;
+    width: 960px;
+    padding:25px 1px 250px 10px;
+    border-style: solid;
+    border-width: medium;
+    align-content: center;    
+    background-color: white;
 }
