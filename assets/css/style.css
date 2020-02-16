@@ -11,7 +11,8 @@
 
 #center { 
     margin-top: 200px;
-    margin-left: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
     width: 960px;
     padding:5px 10px 25px 10px;
     border-style: solid;
@@ -62,10 +63,11 @@ h1{
     position: fixed;
     width: 100%;
     margin-top: 0;
+    left: 0;
 }
 #links > li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
     padding-right: 20px;
 }
 #links > li > a {
@@ -73,14 +75,15 @@ h1{
     color: black;
 }
 #name {
-    padding: 40px;
+    padding: 32px;
     width: 60px;
     background-color: rgb(114, 110, 110);
     color: black;
     border: #cccccc;
     font-weight: 900;
     position: fixed;
-    left: 60px;
+    left: 80px;
+    top: 0;
     
 }
 #form {
@@ -134,4 +137,5 @@ div.desc {
     border-width: medium;
     align-content: center;    
     background-color: white;
+    
 }
