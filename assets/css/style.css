@@ -8,15 +8,27 @@
     position: fixed;
     
 }
-
+h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 200px;
+    padding: 10px 0px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}  
 #center { 
-    margin-top: 200px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: auto;
+    display: block;
     width: 960px;
-    padding:5px 10px 25px 10px;
+    padding:10px 10px 25px 10px;
     border-style: solid;
     border-width: medium;
+    border-radius: 5px;
     align-content: center;    
     background-color: white;
 }
@@ -25,17 +37,20 @@ img {
     float:left;
     align-content: center;
     margin-right: 10px;
-    
+    height: 200px;
+    width: 200px;
 }
 body {
-    background-color: rgb(107, 89, 65);
+    background-color: rgb(206, 255, 247);
+    margin-top: 200px;
 }
 
 
 h1{
     
-    text-align: center;
-    padding-top: 20px;
+    text-align: left;
+    border-bottom: darkgrey medium solid;
+    padding-bottom: 10px;
 }
 
 .footer {
@@ -58,84 +73,64 @@ h1{
     font-family: Arial, Helvetica, serif;
     list-style: none;
     text-align: right;
-    padding: 30px 0 30px 0;
     top: 0;
     position: fixed;
     width: 100%;
     margin-top: 0;
     left: 0;
+    z-index: 9999;
 }
 #links > li {
     display: inline-block;
     margin-right: 20px;
     padding-right: 20px;
+    padding-top: 30px;
 }
 #links > li > a {
     text-decoration: none;
     color: black;
 }
-#name {
-    padding: 32px;
-    width: 60px;
-    background-color: rgb(114, 110, 110);
-    color: black;
-    border: #cccccc;
-    font-weight: 900;
-    position: fixed;
-    left: 80px;
-    top: 0;
-    
+#myName {
+    float: left;
+    background-color: deepskyblue;
+    padding: 50px 10px;
+    margin-left: 190px;    
 }
 #form {
-    margin-top: 200px;
-    margin-left: 200px;
+    margin: auto;
     width: 960px;
     padding:5px 10px 25px 10px;
     border-style: solid;
     border-width: medium;
+    border-radius: 5px;
     align-content: center;    
     background-color: white;
 }
-.form {
-    text-align: center;
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    
+form {
+    margin: auto;
+    display: grid;
+    padding: 0px 200px;
 }
+#summit {
+    background-color: darkcyan;
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
+}
+.gallery {
+    
+    position: relative;
     float: left;
-    width: 180px;
-  }
-  
-div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-
-#gallery {
-    margin-top: 200px;
-    margin-left: 200px;
-    margin-right: 200;
-    padding-right: 10px;
+    margin: 20px 20px 25px;
+    overflow: auto;            
+}
+#portfolio {
+    margin: auto;
     width: 960px;
-    padding:25px 1px 250px 10px;
+    padding:5px 10px 25px 10px;
+    padding-bottom: 480px;
+    margin-bottom: 100px;
     border-style: solid;
     border-width: medium;
+    border-radius: 5px;
     align-content: center;    
     background-color: white;
-    
 }
