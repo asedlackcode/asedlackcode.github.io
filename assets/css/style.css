@@ -1,8 +1,11 @@
+html{
+    background-image: url(../images/backimg.jpg);
+}
 .header {
     padding: 40px;
     width: 60px;
-    background-color: teal;
-    color: black;
+    background-color: black;
+    color: white;
     border: #cccccc;
     font-weight: 900;
     position: fixed;
@@ -41,7 +44,7 @@ img {
     width: 200px;
 }
 body {
-    background-color: rgb(206, 255, 247);
+    
     margin-top: 200px;
 }
 
@@ -62,14 +65,16 @@ h1{
     text-align: center;
     margin-top: 20px;
     padding:20px;
-    background-color: teal;
+    background-color: black;
+    color: white;
 
 }
 
 
 
 #nav {
-    background-color: teal;
+    background-color: black;
+    color: white;
     font-family: Arial, Helvetica, serif;
     list-style: none;
     text-align: right;
@@ -88,13 +93,15 @@ h1{
 }
 #links > li > a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 #myName {
     float: left;
-    background-color: deepskyblue;
+    background-color: red;
+    color:black;
     padding: 50px 10px;
     margin-left: 190px;    
+    font-weight: bold;
 }
 #form {
     margin: auto;
