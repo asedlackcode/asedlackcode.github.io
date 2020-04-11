@@ -151,21 +151,11 @@ form {
     background-color: white;
     
 }
-.title {
-    font-size: xx-large;
-    font-weight: bold;
-    font-family: auto;
-}
-.sidenav-trigger {
-    float: left;
-}
-.material-icons {
-    margin-top: 5px;
+#summit {
+    background-color: black;
     color: white;
 }
-.proj {
-    font-size: large;
-}
+
 /*media*/
 
    
@@ -179,7 +169,8 @@ form {
         padding-left: 50px;
     }
     form {
-        padding-left: 80px;
+        padding: unset;
+        width: 90%;
     }
     #form {
         width:auto;
