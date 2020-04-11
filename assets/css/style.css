@@ -34,6 +34,8 @@ h3 {
     border-radius: 5px;
     align-content: center;    
     background-color: white;
+    line-height: 40px;
+    margin-bottom: 100px;
 }
 
 img {
@@ -112,6 +114,7 @@ h1{
     border-radius: 5px;
     align-content: center;    
     background-color: white;
+    margin-bottom: 100px;
 }
 form {
     margin: auto;
@@ -140,9 +143,74 @@ form {
     padding:5px 10px 25px 10px;
     padding-bottom: 480px;
     margin-bottom: 100px;
+    margin-top: 15%;
     border-style: solid;
     border-width: medium;
     border-radius: 5px;
     align-content: center;    
     background-color: white;
+    
+}
+.title {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: auto;
+}
+.sidenav-trigger {
+    float: left;
+}
+.material-icons {
+    margin-top: 5px;
+    color: white;
+}
+.proj {
+    font-size: large;
+}
+/*media*/
+
+   
+@media only screen and (max-width: 768px) {
+    #portfolio {
+        width:90%;
+        margin-top: 25%;
+        padding-bottom: 1000px;
+    }
+    .gallery {
+        padding-left: 50px;
+    }
+    form {
+        padding-left: 80px;
+    }
+    #form {
+        width:auto;
+    }
+    #nav {
+        position: absolute;
+    }
+    #center {
+        width: auto;
+    }
+    #myName {
+        float: right;       
+        text-align: center;     
+        width: 100%;
+        color: white;
+        background-color: black;
+        font-size: xx-large;
+        padding: 10px 0%;
+    }
+    #links {
+        padding: 4px 20%;
+        display: flex;
+
+    }
+    #links > li {
+        padding-top: unset;
+    }
+    .proj {
+        font-size: large;
+    }
+    .title {
+        font-size: xx-large;
+    }
 }
